@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {
   camel, constant, dot,
   header, lower, lcFirst,
@@ -58,4 +60,4 @@ if (operation === null) {
   help();
 }
 
-process.stdout.write(operation(args[ 1 ]));
+process.stdout.write(`${operation(args[ 1 ])}\n`);

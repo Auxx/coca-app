@@ -1,6 +1,6 @@
 {
   "name": "coca-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Aleksandr Aux Ivanov",
   "homepage": "https://github.com/Auxx/coca-app",
   "description": "Small CLI utility to convert between different text cases, including camel case, etc.",
