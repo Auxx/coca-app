@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build-cli": "tsc -p projects/cli/tsconfig.app.json",
-    "cli": "npm run build-cli && node dist/cli/main.js",
+    "cli": "npm run build-cli && node dist/cli/coca-cli.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
